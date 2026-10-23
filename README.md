@@ -55,7 +55,7 @@ const result = await generateWithContract({
 ## 快速开始
 
 ```bash
-npm test                                    # 34 个用例，含真实 HTTP 往返
+npm test                                    # 43 个用例，含真实 HTTP 往返
 node bin/xhs-pipeline.mjs --help
 
 # 先验证管线（不需要任何 key、CLI、网络）
