@@ -1,0 +1,19 @@
+{
+  "name": "llm-contract-kit",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "契约驱动的 LLM 输出校验层：一份契约同时生成 prompt 与硬校验，支持本地 CLI / OpenAI-compatible 双路线",
+  "exports": {
+    ".": "./src/index.mjs",
+    "./server": "./src/server.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "demo": "node examples/xhs-topics.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
